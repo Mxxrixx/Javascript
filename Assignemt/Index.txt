@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+  <h1 id="title">Conversion</h1>
+
+  
+  <div id="container">
+    <!-- Input container -->
+    <div id="inputContainer">
+      <label for="">Pound to Kilograms</label>
+      <input type="text" id="txtInput">
+    </div>
+
+    <!-- Buttom container -->
+    <div id="btnContainer">
+      <div class="btn" id="calculate">Calculate</div>
+      <div class="btn" id="clear">Clear</div>
+    </div>
+    <p id="result"></p>
+  <div id="containerTwo">
+    <!-- Input container -->
+    <div id="inputContainer">
+      <label for="">Kilograms to Pounds</label>
+      <input type="text" id="txtInput2">
+    </div>
+      
+    <div id="btnContainerTwo">
+      <div class="btn" id="calculateBtnTwo">Calculate</div>
+      <div class="btn" id="clearBtnTwo">Clear</div>
+    </div>
+
+    <p id="result2"></p>
+    
+  </div>
+ 
+
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
